@@ -204,7 +204,7 @@ section {
   margin-top: 2rem;
 }
 
-/* Services */
+/* units */
 .services {
   margin-top: 2rem;
 }
@@ -394,7 +394,6 @@ section {
 .team__wrapper {
   text-align: center;
   border: 0.1rem solid #26633f;
- 
 }
 
 .team__image {
@@ -426,6 +425,62 @@ section {
   font-size: 12px;
   line-height: 2;
   color: #26633f;
+  font-weight: bold;
+}
+
+/* Units */
+
+.units .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.units__heading {
+  text-align: center;
+  color: #26633f;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.units__heading span {
+  color: #ce962e;
+  text-transform: uppercase;
+}
+
+.units .box-container .box {
+  padding: 2rem;
+  text-align: center;
+  border: 0.1rem solid #26633f;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.units .box-container .box img {
+  height: 18rem;
+  margin-bottom: 1rem;
+}
+
+.units .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #26633f;
+  text-transform: capitalize;
+}
+
+.units .box-container .box .unit__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.units .box-container .box .unit__content p {
+  color: #26633f;
+  font-size: 12px;
   font-weight: bold;
 }
 
