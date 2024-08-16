@@ -1,65 +1,102 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Organization</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-	<header>
-		 <center><img src="TechHub_logo.PNG" alt="Company Logo" style="border-radius: 110px; width: 150px;"></center>
-		<h2 align="center">Organization Page</h2>
-	</header>
-	<section>
-<div style="display: flex; justify-content: space-around; margin-top: 20px;">
-<div style="background-color: #f7f7f7; padding: 10px; border: 2px solid #ddd; width: 30%; text-align: center;">
-		<h2>Management Team</h2>
-<p>
-<ul align="left">
-<li><b>Sunday Elesi</b>: Chief Executive Officer<br><br>
-<li><b>Gideon Okibe</b>: Chief Technology Officer<br><br>
-<li><b>Rejoice Kajah</b>: Head, Training and Development<br><br>
-<li><b>Christian Uche</b>: Director, TechHub & Innovations
-</ul>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <title>Group 1 Assignment</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <section class="header">
+      <a href="#" class="logo">
+        <img
+          src="/images/logo-removebg-preview.png"
+          alt="Company Logo"
+          width="150"
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="aboutus.html" target="_blank">About Us</a>
+        <a href="Organization.html" target="_blank">Organization</a>
+        <a href="contactus.html" target="_blank">Contact Us</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </section>
+    <!--End of NavBar -->
+
+    <!-- team -->
+
+    <section class="team" id="team">
+      <h1 class="team__heading">Our <span>Team</span></h1>
+
+      <div class="team__container">
+        <div class="team__wrapper">
+          <div class="team__image">
+            <img src="images/team-1.png" alt="Team Members" />
+          </div>
+          <div class="team__content">
+            <h3>Rejoice Kajah</h3>
+            <span>Head, Training and Development</span>
+          </div>
+        </div>
+
+        <div class="team__wrapper">
+          <div class="team__image">
+            <img src="images/Sunny.png" alt="Team Members" />
+          </div>
+          <div class="team__content">
+            <h3>Sunday Elesi</h3>
+            <span>Chief Executive Officer</span>
+          </div>
+        </div>
+
+        <div class="team__wrapper">
+          <div class="team__image">
+            <img src="images/team-3.png" alt="Team Members" />
+          </div>
+          <div class="team__content">
+            <h3>Christian Uche</h3>
+            <span>Director, TechHub & Innovations</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End of Team -->
+
+    <!-- Units -->
 	
-<div style="background-color: #f7f7f7; padding: 10px; border: 2px solid #ddd; width: 30%; text-align: center;">
-		<h2>Staff and Units</h2>
-		</div>
-	
-<div style="background-color: #f7f7f7; padding: 10px; border: 2px solid #ddd; width: 30%; text-align: center;">
-		<h2>Units and Activities</h2>
-		<p>
-<h3 align="left">1. ICT Solutions Unit</h3>
-<ul align="left">
-<li>Develops custom software solutions
-<li>Provides IT consulting services
-<li>Implements cutting-edge technologies for clients
-</ul>
-<br>
-<h3 align="left">2. Virtual Tech Hub</h3>
-<ul align="left">
-<li>Facilitates collaborative projects
-<li>Connects learners, interns, and experts
-<li>Manages online platforms for co-creation
-</ul>
-<br>
-<h3 align="left">3. Training and Development</h3>
-<ul align="left">
-<li>Designs and delivers tech training programs
-<li>Implements mentor-mentee learning approach
-<li>Organizes workshops and seminars
-</ul>
-<br>
-<h3 align="left">4. Research and Innovation</h3>
-<ul align="left">
-<li>Explores emerging technologies
-<li>Conducts research on societal challenges
-<li>Develops innovative solutions to address local needs
-</ul>
-</p>
-</div>
-</div>
-	</section>
-</body>
+	<!-- End of Units -->
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Yatoha TechHub Solutions | All Rights Reserved</p>
+      </div>
+      <div class="footer-bottom">
+        <p>Developed by LIBS 882 Group 1</p>
+      </div>
+    </footer>
+
+    <!-- End of Footer -->
+
+    <script src="/js/script.js"></script>
+  </body>
 </html>
