@@ -58,6 +58,11 @@ section {
   text-transform: uppercase;
 }
 
+.header .navbar {
+  display: flex;
+  margin-left: auto; /* Ensure navbar is pushed to the right */
+}
+
 .header .navbar a {
   font-size: 2rem;
   margin-left: 2rem;
@@ -512,7 +517,6 @@ footer {
 @media (max-width: 1064px) {
   html {
     font-size: 55%;
-    
   }
 }
 
@@ -535,10 +539,14 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .header .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
   #menu-btn {
     display: inline-block;
   }
-  
 
   .header .navbar {
     position: absolute;
