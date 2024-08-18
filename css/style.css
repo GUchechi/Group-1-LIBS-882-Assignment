@@ -127,7 +127,7 @@ section {
   text-transform: uppercase;
   color: white;
   padding: 2rem 0;
-  text-shadow: 2px 2px 0 #4fa863; /* Green shadow for edges */
+  text-shadow: 2px 2px 0 #008083; /* Green shadow for edges */
 }
 
 .home .slide .content span {
@@ -178,7 +178,7 @@ section {
 }
 
 .ceo__content {
-  background-color: rgb(39, 75, 39);
+  background-color: #008083;
   color: white;
   padding: 10px;
   width: 73%;
@@ -235,6 +235,20 @@ section {
   margin-top: 3rem;
 }
 
+.services .box-container .box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.services__img--heading {
+  text-align: center;
+  font-size: 17px;
+  color: #008083;
+  /* margin-top: 10px; */
+  /* margin-bottom: 20px; */
+}
+
 .line__container {
   display: flex;
   align-items: center;
@@ -261,7 +275,7 @@ section {
 .services__text {
   margin: auto;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 10rem;
   font-size: 2rem;
   font-weight: bold;
 }
