@@ -60,7 +60,7 @@ section {
 
 .header .navbar {
   display: flex;
-  margin-left: auto; /* Ensure navbar is pushed to the right */
+  margin-left: auto; 
 }
 
 .header .navbar a {
